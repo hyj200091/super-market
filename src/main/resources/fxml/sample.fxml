@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="927.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView>
+        <Image url="/img/3.png"/>
+    </ImageView>
+   <children>
+      <HBox prefHeight="100.0" prefWidth="1010.0" />
+      <Label prefHeight="109.0" prefWidth="927.0" style="-fx-background-color: rgb(83, 130, 210);" text="                       超市收银管理系统">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <HBox layoutX="183.0" layoutY="153.0" prefHeight="87.0" prefWidth="478.0">
+         <children>
+            <Label prefHeight="47.0" prefWidth="186.0" text="   *用户账号：" textFill="#9e5252">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="40.0" prefWidth="228.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="205.0" layoutY="261.0" prefHeight="100.0" prefWidth="457.0">
+         <children>
+            <Label prefHeight="44.0" prefWidth="164.0" text="*用户密码：" textFill="#8d3a3a">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField prefHeight="39.0" prefWidth="229.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="211.0" layoutY="345.0" prefHeight="47.0" prefWidth="122.0" />
+      <VBox layoutX="398.0" layoutY="345.0" prefHeight="47.0" prefWidth="122.0" />
+      <Button layoutX="234.0" layoutY="373.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="136.0" style="-fx-background-color: rgb(83, 130, 210);" text="登录" />
+      <Button layoutX="420.0" layoutY="373.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="136.0" style="-fx-background-color: rgb(83, 130, 210);" text="退出" />
+      <Button layoutX="605.0" layoutY="373.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="136.0" style="-fx-background-color: rgb(83, 130, 210);" text="重置" />
+      <HBox layoutX="249.0" layoutY="446.0" prefHeight="56.0" prefWidth="400.0">
+         <children>
+            <Label prefHeight="51.0" prefWidth="400.0" text="         故障维修：88886666" textFill="#a86565">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
